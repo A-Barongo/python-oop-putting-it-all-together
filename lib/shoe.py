@@ -17,14 +17,6 @@ class Shoe:
         else:
             print("size must be an integer")
                   
-    
-    @property
-    def condition(self):
-        return self._condition
-    
-    @condition.setter
-    def condition(self,value):
-        self._condition=value
         
     def cobble(self):
         self.condition='New'
